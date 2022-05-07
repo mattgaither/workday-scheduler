@@ -10,7 +10,7 @@ This page will show you the date at the top and every hour that goes by the page
 GitHub repository:
 https://github.com/mattgaither/workday-scheduler
 
-The actuall page link:
+The actual page link:
 https://mattgaither.github.io/workday-scheduler/
 
 ## Screenshots of the page 
