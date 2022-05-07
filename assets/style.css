@@ -32,7 +32,7 @@ textarea{
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 6rem;
   border-top: 1px solid white;;
 }
 
@@ -68,4 +68,28 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 768px), screen and (max-width: 575px) {
+
+  .row{ 
+    height: auto;
+    margin:auto;
+  }
+
+  .hour{
+    padding-right: 18%;
+  }
+
+  .saveBtn{ 
+    border-radius: 25px;
+    border: 0;
+    height: 65px;
+    
+  }
+
+  .textarea{
+    min-height: 5rem;
+    border: 0;
+  }
 }
