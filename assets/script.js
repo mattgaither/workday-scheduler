@@ -6,7 +6,7 @@ $(document).ready(function() {
     // saveBtn click listener
     $(".saveBtn").on('click',function() {
         // Get values of description in JQuery
-        var text = $(this).siblings(".descriptions").val();
+        var text = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
 
         // save in Local storage
